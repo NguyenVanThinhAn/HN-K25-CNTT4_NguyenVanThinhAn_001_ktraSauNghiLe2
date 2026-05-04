@@ -176,6 +176,7 @@ JOIN Books boo ON boo.book_id = loa.book_id
 ORDER BY boo.price DESC
 LIMIT 1;
 
+-- Liệt kê thông tin các cuốn sách thuộc thể loại 'Tiểu thuyết' đã được mượn ít nhất một lần  
 SELECT boo.title,boo.author,boo.category
 FROM Members mem
 JOIN Loans loa ON loa.member_id = mem.member_id
