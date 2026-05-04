@@ -1,5 +1,5 @@
 SET SQL_SAFE_UPDATES = false;
-DROP DATABASE test; -- dùng để test nhanh
+-- DROP DATABASE test; -- dùng để test nhanh
 CREATE DATABASE test;
 
 USE test;
